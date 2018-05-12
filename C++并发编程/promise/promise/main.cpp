@@ -24,6 +24,12 @@
 #include<atomic>
 #include <unistd.h>
 
+/*
+ 因为大量的线程会消耗大量的系统资源，还有可能造成上下文频繁切换(当线程数量超出硬件可接受的并发数
+ 时)，这都会对性能有影响。
+ 
+*/
+
 using namespace std;
 atomic<int> flag(0);//采用原子操作保护g_Flag的读写
 void worker1(future<int> fut){//线程1

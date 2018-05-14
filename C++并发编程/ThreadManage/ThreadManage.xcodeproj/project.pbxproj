@@ -24,6 +24,9 @@
 
 /* Begin PBXFileReference section */
 		B21CE1B91FF0AA7E00B420FB /* AsyncAccum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncAccum.h; sourceTree = "<group>"; };
+		B299417D20A92D7D005D7EC9 /* parallel_find.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parallel_find.h; sourceTree = "<group>"; };
+		B299417E20A92DA5005D7EC9 /* parallel_foreach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parallel_foreach.h; sourceTree = "<group>"; };
+		B299417F20A92DD8005D7EC9 /* ThreadJoiner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreadJoiner.h; sourceTree = "<group>"; };
 		B2EDE8BE1FE9063200D80BC3 /* ThreadManage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThreadManage; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EDE8C11FE9063200D80BC3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +63,9 @@
 			children = (
 				B2EDE8C11FE9063200D80BC3 /* main.cpp */,
 				B21CE1B91FF0AA7E00B420FB /* AsyncAccum.h */,
+				B299417D20A92D7D005D7EC9 /* parallel_find.h */,
+				B299417E20A92DA5005D7EC9 /* parallel_foreach.h */,
+				B299417F20A92DD8005D7EC9 /* ThreadJoiner.h */,
 			);
 			path = ThreadManage;
 			sourceTree = "<group>";
